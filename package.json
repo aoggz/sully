@@ -1,0 +1,27 @@
+{
+  "name": "maverick",
+  "version": "1.0.0",
+  "description": "Holistic and real-time application health.",
+  "main": "index.html",
+  "dependencies": {
+    "material-design-lite": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoggz/sully.git"
+  },
+  "keywords": [
+    "monitoring",
+    "health"
+  ],
+  "author": "Andrew Ogburn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aoggz/sully/issues"
+  },
+  "homepage": "https://github.com/aoggz/sully#readme"
+}

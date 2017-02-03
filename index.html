@@ -1,21 +1,28 @@
 <html>
     <head>
-        <link href="./node_modules/materialize-css/dist/css/materialize.min.css" rel="stylesheet">
+        <link href="./node_modules/material-design-lite/material.min.css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link href="./styles.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <div class="navbar-fixed">
-                <nav>
-                    <div class="nav-wrapper">
-                      <a href="#" class="brand-logo">Sully</a>
-                      <ul id="nav-mobile" class="right hide-on-med-and-down">
-                          <li><a href="sass.html">Sass</a></li>
-                          <li><a href="badges.html">Components</a></li>
-                          <li><a href="collapsible.html">JavaScript</a></li>
-                      </ul>
-                    </div>
+            <div>
+                <nav class="nav-extended">
+                  <div class="nav-wrapper">
+                    <a href="#" class="brand-logo">Maverick</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="administration.html">Administration</a></li>
+                    </ul>
+                  </div>
+                  <div class="nav-content">
+                    <ul class="tabs tabs-transparent">
+                      <li class="tab"><a class="active" href="#test1">Webs</a></li>
+                        <li class="tab"><a class="active" href="#test1">APIs</a></li>
+                      <li class="tab"><a href="#test2">Service bus</a></li>
+                      <li class="tab disabled"><a href="#test3">Mail queue</a></li>
+                      <li class="tab"><a href="#test4">Scheduled jobs</a></li>
+                    </ul>
+                  </div>
                 </nav>
                 <div class="container">
                   <a href="#" data-activates="slide-out" class="button-collapse top-nav full hide-on-large-only"><i class="material-icons">menu</i></a>
@@ -25,7 +32,7 @@
 
     <main>
       <div class="container">
-        <table>
+        <table class="striped highlight">
           <thead>
             <tr>
               <th>Application</th>
